@@ -1,0 +1,76 @@
+.navbar-light.bg-light{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    box-sizing: content-box;
+    background-color: yellow;
+    color: yellow;
+}
+
+
+.circle {
+    position: relative;
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 50%;
+    background-image:url(/pic2.jpg);
+   }
+  
+  .circle__spin {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 140px;
+    height: 140px;
+    
+  }
+  
+  .circle__spin svg {
+    width: 100%;
+    height: 100%;
+    animation: spin 10s linear infinite;
+  }
+  
+  .circle__spin circle {
+    stroke-width: 5;
+    stroke-dasharray: 120, 20;
+    fill: none;
+    stroke: orange;
+  }
+  
+  @keyframes spin { 
+    100% { 
+      transform: rotate(360deg);
+    }
+  }
+  .navbar-light.bg-light
+  {
+    align-items:baseline;
+    margin-top: 5rem;
+  }
+
+  .jLxchn {
+    width: 0rem;
+    height: 2rem;
+    border-width: 0.05rem;
+    border-style: solid;
+    border-color:red;
+    border-image: initial;
+}
+
+.flex-sm-row
+{
+  margin-top: 10rem;
+}
+
+
+.navbar-light.bg-light
+{
+  margin-top:60;
+}
+.nav-link
+{
+  color: black;
+}
